@@ -30,10 +30,10 @@ class App(tk.Tk):
 
         # Four toggle switches with different colors
         switches = [
-            ("Switch One",   "#7aa2f7"),
-            ("Switch Two",   "#9ece6a"),
-            ("Switch Three", "#f7768e"),
-            ("Switch Four",  "#e0af68"),
+            ("Switch 1",   "#7aa2f7"),
+            ("Switch 2",   "#9ece6a"),
+            ("Switch 3", "#f7768e"),
+            ("Switch 4",  "#e0af68"),
         ]
 
         for name, on_color in switches:
