@@ -121,8 +121,7 @@ public:
         QFont f = lbl->font();
         f.setPixelSize(15);
         lbl->setFont(f);
-        auto fg = Qt::white;
-        lbl->setPalette(QPalette(fg));
+        lbl->setStyleSheet("color: white;");
 
         auto *sw = new ToggleSwitch(accent, bg, this);
 
@@ -172,8 +171,7 @@ public:
         small.setPixelSize(12);
         sub->setFont(small);
         sub->setAlignment(Qt::AlignCenter);
-        auto grey = Qt::white;
-        sub->setPalette(QPalette(grey));
+        sub->setStyleSheet("color: white;");
         layout->addWidget(sub);
 
         /* Four switches */
